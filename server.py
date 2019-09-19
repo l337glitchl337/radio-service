@@ -9,7 +9,7 @@ class musicStream:
 
     def __init__(self):
         self.socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        self.host = "192.168.0.7"
+        self.host = "localhost"
         self.port = 1337
         self.active_threads = []
         self.music = os.listdir("/home/monster/music")
