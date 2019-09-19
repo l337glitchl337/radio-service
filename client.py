@@ -16,7 +16,7 @@ elif "Linux" in platform.platform():
 class myClient:
 
     def __init__(self):
-        self.host = "192.168.0.7"
+        self.host = "localhost"
         self.port = 1337
         self.socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         self.socket.settimeout(15)
